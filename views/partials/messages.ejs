@@ -1,0 +1,13 @@
+<div class="container">
+    <% if(success_message && success_message.length > 0) { %>
+        <div class="alert alert-success text-center stay-small">
+            <%= success_message %>
+        </div>
+    <% } %>
+
+    <% if(error_message && error_message.length > 0) { %>
+        <div class="alert alert-danger text-center stay-small">
+            <%= error_message %>
+        </div>
+    <% } %>
+</div>

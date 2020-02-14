@@ -1,0 +1,86 @@
+<%- include('./partials/dashboardHeader') %>
+<%- include('./partials/dashboardNavbar') %>
+
+<div class="container-fluid">
+                <div class="row bg-title">
+                    <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
+                        <h4 class="page-title"><%= pageHeading %></h4>
+                    </div>
+                    <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
+                        <ol class="breadcrumb">
+                            <li><a href="/admin">Dashboard</a></li>
+                            <li class="active"><%= pageHeading %></li>
+                        </ol>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /row -->
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="white-box">
+                            <h3 class="box-title">Basic Table</h3>
+                            <p class="text-muted">Add class <code>.table</code></p>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>#</th>
+                                            <th>Unit Name</th>
+                                            <th>Unit Location</th>
+                                            <th>Tel</th>
+                                            <th>Role</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>nHub Foundation</td>
+                                            <td>@Genelia</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Fire Emergency</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Gaylord</td>
+                                            <td>@Ritesh</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Health Emergency</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Gusikowski</td>
+                                            <td>@Govinda</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Fire Emergency</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Rogahn</td>
+                                            <td>@Hritik</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Road Emergency</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>Hickle</td>
+                                            <td>@Maruti</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Fire Emergency</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Eichmann</td>
+                                            <td>@Sonu</td>
+                                            <td>0904 895 7998</td>
+                                            <td>Health Emergency</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+
+<%- include('./partials/dashboardFooter') %>

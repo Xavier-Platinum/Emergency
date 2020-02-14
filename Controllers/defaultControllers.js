@@ -72,7 +72,7 @@ module.exports = {
         
         // const customerCare = "08163252713"
         req.flash("success-message", "Your Registration to E-Response was Successful");
-        res.redirect("/login"); 
+        res.redirect("/"); 
       }
     })
   },

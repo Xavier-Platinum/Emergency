@@ -12,9 +12,9 @@ const config = require("./config/configuration");
 
 const app = express();
 
-/*  ========================
+/*  =========================
 CONFIGURING EXPRESS
-=========================*/
+========================= ==*/
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
